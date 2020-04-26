@@ -6,19 +6,23 @@
     <title>Delivery Food - Доставка еды на дом</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css"> 
+     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <img src="/img/logo.svg" alt="logo" class="logo">
+            <a href="/index.html" class="logo">
+                <img src="/img/logo.svg" alt="logo">
+            </a>
             <input type="text" class="input input-adress" placeholder="Адрес доставки">
             <div class="buttons">
                 <button class="button button-primary">
                     <img src="img/user.svg" alt="user" class="button-logo">
                     <span class="button-text">Войти</span>
                 </button>
-                <button class="button">
+                <button class="button" id="shopping-cart-button">
                     <img src="img/basket.svg" alt="user" class="button-logo">
                     <span class="button-text">Корзина</span>
                 </button>
@@ -41,7 +45,7 @@
                     <input type="text" class="input input-search" placeholder="Поиск блюд и ресторанов">
                 </div>
                 <div class="cards">
-                    <div class="card">
+                    <a href="/restaurant.html" class="card wow fadeInUp" data-wow-delay="0.2s">
                         <img src="img/img1.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -59,9 +63,9 @@
                             </div>
                             <!-- /.card-info -->
                         </div>
-                    </div>
+                    </a>
                     <!-- /.card -->
-                    <div class="card">
+                    <a href="/restaurant.html" class="card wow fadeInUp" data-wow-delay="0.4s">
                         <img src="img/img2.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -79,9 +83,9 @@
                             </div>
                             <!-- /.card-info -->
                         </div>
-                    </div>
+                    </a>
                     <!-- /.card -->
-                    <div class="card">
+                    <a href="/restaurant.html" class="card wow fadeInUp" data-wow-delay="0.8s">
                         <img src="img/img3.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -99,9 +103,9 @@
                             </div>
                             <!-- /.card-info -->
                         </div>
-                    </div>
+                    </a>
                     <!-- /.card -->
-                    <div class="card">
+                    <a href="/restaurant.html" class="card wow fadeInUp" data-wow-delay="0.2s">
                         <img src="img/img4.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -119,9 +123,9 @@
                             </div>
                             <!-- /.card-info -->
                         </div>
-                    </div>
+                    </a>
                     <!-- /.card -->
-                    <div class="card">
+                    <a href="/restaurant.html" class="card wow fadeInUp" data-wow-delay="0.4s">
                         <img src="img/img5.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -139,9 +143,9 @@
                             </div>
                             <!-- /.card-info -->
                         </div>
-                    </div>
+                    </a>
                     <!-- /.card -->
-                    <div class="card">
+                    <a href="/restaurant.html" class="card wow fadeInUp" data-wow-delay="0.8s">
                         <img src="img/img6.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -159,7 +163,7 @@
                             </div>
                             <!-- /.card-info -->
                         </div>
-                    </div>
+                    </a>
                     <!-- /.card -->
                 </div>
                 <!-- /.cards -->
@@ -189,5 +193,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
